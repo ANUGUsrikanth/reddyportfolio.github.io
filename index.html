@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<title>Srikanth's portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('srikanth.jpg');
+    min-height: 100%;
+}
+    .photo:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.photo{
+    max-height: 420px;
+    transition: 0.25s;
+}
+.parallax {
+    background-image: url("light.jpg");
+    min-height:500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+<body class="parallax">
+
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+  <img src="logo.jpg" class="w3-image w3-round" style="display:block;width:100px;height:100px;margin:auto;">
+    <h1 class="w3-jumbo"><b>Srikanth Reddy</b></h1>
+    <p><b>Web Designer, Front End Developer and Amateur Photographer</b></p>
+    <img src="srikanth.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="srikanth.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <a href="SrikanthResume.docx" download="">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button></a>
+  </header>
+
+
+  <div class="w3-padding-32 w3-content" id="portfolio">
+    <h2 class="w3-text-grey">My Portfolio</h2>
+    <hr class="w3-opacity">
+
+    
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="photo"><img src="owl.jpg" style="width:100%"></div>
+        <div class="photo"><img src="paris.jpg" style="width:100%"></div>
+        <div class="photo"><img src="railway.jpg" style="width:100%"></div>
+        <div class="photo"><img src="umbrellas.jpg" style="width:100%"></div>
+      </div>
+
+      <div class="w3-half">
+        <div class="photo"><img src="bottle.jpg" style="width:100%"></div>
+        <div class="photo"><img src="catglasses.jpg" style="width:100%"></div>
+        <div class="photo"><img src="couple.jpg" style="width:100%"></div>
+        <div class="photo"><img src="rolls.jpg" style="width:100%"></div>
+      </div>
+    
+    </div>
+  </div>
+
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Hello, I’m Srikanth Reddy! I'm a designer and front end developer based in New Jersey, USA.I specialize in designing and developing user interfaces and digital products. My attention to detail is extreme and I love to continually learn what's new all things design-related.</p>
+<p>I have a strong passion for the creativity and discipline that goes into front-end development. Keeping in mind scalability and clean code that is maintainable and readable.</p>
+<p>In my free time, I enjoy being outdoors, listening to music, traveling and experiencing new and exciting adventures.</p>
+    <h3 class="w3-padding-16">My Skills</h3>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+    </div>
+    <p class="w3-wide">Front End Development</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+    </div>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:70%">70%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">8+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">7+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">40+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <a href="SrikanthResume.doc" download="">
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button></a>
+
+    
+    <h3 class="w3-padding-24">My Reputation</h3>
+    <img src="sudheer.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Sudheer.</span> CEO of Nic Infotek Inc.</p>
+    <p>Reddy is just awesome. I am so happy to have met him!</p><br>
+   
+    <img src="sandeep.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right"> Sandeep.</span> Web Developer at Polaris.</p>
+    <p>Srikanth Reddy saved us from a web disaster.</p><br>
+    
+    <img src="praveen.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right"> Praveen Reddy.</span> Project Manager at Polaris.</p>
+    <p>No one is better than Reddy.</p><br>
+    
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> 2401 strawberry ct, Edison, New Jersey, US</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +1(908)-605-6506</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: srireddyanugu91@gmail.com</p>
+    </div>
+    
+    <div id="googleMap" style="width:100%;height:300px;margin:36px 0;"></div>
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="mail.php" method="post">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" name="name" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" name="email" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" name="subject" required></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" name="message" required></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit" name="submit" value="Send">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+
+  </div>  
+  
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity" style="color:#3b5998"></i>
+    <i class="fa fa-instagram w3-hover-opacity" style="color:#125688"></i>
+    <i class="fa fa-snapchat w3-hover-opacity" style="color:#fffc00"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity" style="color:#cb2027"></i>
+    <i class="fa fa-twitter w3-hover-opacity" style="color:#55acee"></i>
+    <i class="fa fa-linkedin w3-hover-opacity" style="color:#007bb5"></i>
+    <p class="w3-medium">&copy; 2017 <a href="https://reddy.uphero.com"class="w3-hover-text-blue">reddy.uphero.com</a></p>
+
+  </footer>
+  
+</div>
+
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(40.5187, -74.4121);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLJqMo4nS_SPW1-y_IAk1euNEYcoYRAYM&callback=myMap"></script>
+
+</body>
+</html>
